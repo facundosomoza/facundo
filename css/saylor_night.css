@@ -1,0 +1,123 @@
+body{
+    background-color: #110038;
+}
+
+.bar{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+}
+.bar h6{
+   
+    color: #FFFFFF;
+    
+}
+.boton-habilitado{
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    color:#FFFFFF ;
+}
+.boton-deshabilitado{
+    background: #B4B4B4;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    color: #8F8F8F;
+    cursor: not-allowed;
+}
+.img-btn-buscar-habilitado{
+    background: url(../images/lupa_light.svg)no-repeat !important;
+}
+.img-btn-buscar-deshabilitado{
+    background: url(../images/Combined\ Shape.svg )no-repeat !important;
+}
+#img-flechita{
+    transform: rotate(-270deg);
+}
+
+
+#flechasdos{
+   
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+   
+}
+#flechasdos button{
+  
+    color: #110038;
+   
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+header .subrayado{
+    
+    color: #110038;
+}
+#cuadro-mensaje{
+    
+    border: black solid 2px;
+}
+form{
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+
+}
+
+#rectangulo{
+    color: #FFFFFF;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+
+.btn-normal{
+    background-color: red;
+}
+.btn-grabar{
+    background-color: green;
+}
+
+#btn-mis-gifos{
+    
+    color: #FFFFFF ;
+   
+}
+
+.link-deshabilitado{
+    
+    color:gray;
+    
+}
+.cuadro-h2{
+    background: #FFFAFE;
+    border: 1px solid #2E32FB;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+.encabezado-img{
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+.recuadro-img{
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+#btn-mis-gifos:hover{
+    border: 1px dotted #FFFFFF;
+}
+.btn-ver-mas{
+    background: #2E32FB;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;
+    
+}
+.btn-ver-mas:hover{
+    background-color: #2629CC;
+    
+}
+.gifoListado > div{
+    width: 100%;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); 
+}
+.gifoListado:hover{
+    border: 1px dotted #110038;
+    margin: 1px;
+}
